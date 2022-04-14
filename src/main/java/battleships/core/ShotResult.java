@@ -1,0 +1,5 @@
+package battleships.core;
+
+public enum ShotResult {
+    SUCCESSFUL_HIT, MISSED, TARGET_ALREADY_DESTROYED, WHOLE_SHIP_WAS_SUNK, LAST_SHIP_WAS_SUNK, UNKNOWN
+}
